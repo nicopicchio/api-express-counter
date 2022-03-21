@@ -13,7 +13,7 @@ In this exercise we will build a simple counter API using express.
 ## Instructions
 Create a new express application using the steps provided in the [express intro](https://github.com/boolean-uk/api-express-intro#express-setup). 
 
-Ypur application should maintain a simple numeric counter and provide the following endpoints that allow a client to retrieve and manipulate the counter:
+Your application should maintain a simple numeric counter and provide the following endpoints that allow a client to retrieve and manipulate the counter:
 - GET `/counter` - Returns the current value of the counter. The counter should start of at 0.
 - POST `/counter/increment`-  Increments the counter on the server and returns the current value.
 - POST `/counter/decrement`-  Decrements a counter on the server and returns the current value.
